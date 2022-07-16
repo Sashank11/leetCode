@@ -30,6 +30,7 @@ public class Topk_elem {
 //             map.get(i).add(count + 1);
 
 //         }
+// // now sort map
 //     for(int i = 0; i<k; i++){
 //         out[i] = map.get(i);
 //     }
