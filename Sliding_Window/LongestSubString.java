@@ -8,7 +8,7 @@ public class LongestSubString {
         int max = 0;
         HashSet<Character> chars = new HashSet<>();
 
-        while(j < s.length()){
+        while(j < s.length()){ 
             if(!chars.contains(s.charAt(j))){
                 chars.add(s.charAt(j));
                 j++;
