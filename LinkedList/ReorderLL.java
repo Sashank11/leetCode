@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class ReorderLL {
-    public void reorderList(ListNode head) {
+    public static void reorderList(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
         while(fast != null && fast.next != null){
