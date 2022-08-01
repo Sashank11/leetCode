@@ -1,15 +1,15 @@
 package BinarySearch;
 
 public class TImeBased {
-    public TimeMap() {
+    // public TimeMap() {
         
-    }
+    // }
     
-    public void set(String key, String value, int timestamp) {
+    // public void set(String key, String value, int timestamp) {
         
-    }
+    // }
     
-    public String get(String key, int timestamp) {
+    // public String get(String key, int timestamp) {
         
-    }
+    // }
 }
