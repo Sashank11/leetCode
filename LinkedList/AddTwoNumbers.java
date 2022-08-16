@@ -32,8 +32,6 @@ public class AddTwoNumbers {
                 l2 = null;
         }
         return root.next;
-        }
-        return root.next.next;
     }
 
     public static void main(String[] args) {
