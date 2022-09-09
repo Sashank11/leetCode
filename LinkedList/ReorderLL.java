@@ -28,7 +28,7 @@ public class ReorderLL {
             curr = temp1;
             
         }
-       
+
     }
     public static void main(String[] args) {
         ListNode head = new ListNode(0);
@@ -47,3 +47,29 @@ public class ReorderLL {
 
     }
 }
+// revise
+//  ListNode curr = head;
+//          ListNode fast = head;
+//          ListNode slow = head;
+//          while(fast != null && fast.next !=null){
+//              slow = slow.next;
+//              fast = fast.next.next;
+//          }
+//         ListNode temp = slow.next;
+//         ListNode prev = slow.next = null;
+//         while(temp != null){
+//             ListNode t = temp.next;
+//             temp.next = prev;
+//             prev = temp;
+//             temp = t;
+//         }
+
+//         temp = prev;
+//         while(temp != null){
+//             ListNode t1 = curr.next;
+//             ListNode t2 = temp.next;
+//             curr.next = temp;
+//             temp.next = t1;
+//             curr = t1;
+//             temp = t2;
+//         }
