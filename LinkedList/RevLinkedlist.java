@@ -29,3 +29,15 @@ public class RevLinkedlist {
 //         }
 //         head.next = null;
 //         return newHead;
+
+//revise
+// ListNode prev  = null;
+//         ListNode curr = head;
+//         ListNode temp = head;
+//         while(curr != null){
+//             temp = curr.next;
+//             curr.next = prev;
+//             prev = curr;
+//             curr = temp;
+//         }
+//         return prev;
