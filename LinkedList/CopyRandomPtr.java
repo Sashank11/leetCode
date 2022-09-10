@@ -21,3 +21,21 @@ public class CopyRandomPtr {
         return map.get(head);
     }
 }
+
+// revise
+// HashMap<Node, Node> map = new HashMap<>();
+//         Node curr = head;
+//         while(curr != null){
+//             Node newNode = new Node(curr.val);
+//             map.put(curr, newNode);
+//             curr = curr.next;
+//         }
+//         curr = head;
+//         while(curr != null){
+//             Node newNode = map.get(curr);
+//             newNode.next = map.get(curr.next);
+//             newNode.random = map.get(curr.random);
+//             curr = curr.next;
+//         }
+//         return map.get(head);
+// }
