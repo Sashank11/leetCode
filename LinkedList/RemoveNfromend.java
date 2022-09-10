@@ -36,3 +36,4 @@ public class RemoveNfromend {
         System.out.println(head.val);
     }
 }
+// revise above
