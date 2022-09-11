@@ -96,7 +96,7 @@ public class AddTwoNumbers {
     //     return root.next.next;
     // }
 
-    // revise
+    // revised
     
     // ListNode dummy = new ListNode(0);
     //     ListNode curr = dummy;
