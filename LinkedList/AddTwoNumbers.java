@@ -102,7 +102,8 @@ public class AddTwoNumbers {
     //     ListNode curr = dummy;
     //     dummy.next = curr;
     //     int carry = 0;
-    //     int v1, v2;
+    //     int v1;
+    //     int v2;
     //     while(l1 != null || l2 != null || carry != 0){
     //         if(l1 != null){
                 
